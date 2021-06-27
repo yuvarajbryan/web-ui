@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.title {
+  position: absolute;
+  width: 108px;
+  height: 41px;
+  left: 120px;
+  top: 2px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #1abbc6;
+}
+a {
+  position: static;
+  width: 60px;
+  height: 23px;
+  left: 217px;
+  top: 0px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  text-align: left;
+}
+
+.sign {
+  color: #71a89e;
+}
+
+.feature {
+  color: #303031;
+}
+
+.price {
+  color: #303031;
+}
+
+.t1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #22322f;
+}
+
+.t2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  color: #22322f;
+}
+
+.button_form {
+  position: absolute;
+  width: 219px;
+  height: 64px;
+  left: 120px;
+  top: 530px;
+}
+
+.button {
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 24px;
+  width: 221px;
+  height: 64px;
+  left: calc(50% - 221px / 2);
+  /* A */
+  background: #71a89e;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.nav {
+  float: right;
+  word-spacing: 30px;
+  padding: 50px;
+  height: 23px;
+  width: 400px;
+  left: 987px;
+  top: 10px;
+  border-radius: 0px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 551px;
+  height: 232px;
+  left: 120px;
+  top: 234px;
+}
+
+.image {
+  position: absolute;
+  width: 617px;
+  height: 664px;
+  left: 703px;
+  top: 80px;
+}
